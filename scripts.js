@@ -1,4 +1,4 @@
-/****************** YOUR NAME: 
+/****************** YOUR NAME: Yafet Siele
 
 The instructions describe the missing logic that is needed; you will translate these into JavaScript in the places indicated.
 
@@ -33,7 +33,8 @@ function recalculate() {
     let totalCost;
     if (modelName === "XYZ") {
         totalCost = duration * 100;
-    } else {
+    } 
+    else {
         totalCost = duration * 213;
     }
     costLabel.innerHTML = totalCost;
@@ -63,7 +64,8 @@ function changeModel() {
     if (modelName === "XYZ") {
         modelName = "CPRG";
         modelText.innerHTML = "Model CPRG";
-    } else{
+    } 
+else{
         modelName = "XYZ";
         modelText.innerHTML = "Model XYZ";
     }
@@ -71,7 +73,6 @@ function changeModel() {
 }
 
 modelButton.addEventListener("click", changeModel);
-
 
 
 
@@ -99,4 +100,3 @@ function changeDuration() {
 }
 
 durationButton.addEventListener("click", changeDuration);
-
